@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-expensive {
+  @apply bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-bold py-2 px-4 rounded-full shadow-lg transform transition-transform duration-300 ease-in-out;
+}
+
+.button-expensive:hover {
+  @apply from-indigo-500 to-purple-500 shadow-xl scale-105;
+}
+
+.button-back {
+  @apply bg-gray-500 text-white font-bold py-2 px-4 rounded-full shadow-lg transform transition-transform duration-300 ease-in-out;
+}
+
+.button-back:hover {
+  @apply bg-gray-700 shadow-xl scale-105;
+}
